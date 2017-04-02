@@ -1,0 +1,4 @@
+9485e0c8cd29cffb.b none swap sw
+9485e0c8cd29cffb.a / ffs rw 1 1
+9485e0c8cd29cffb.e /home ffs rw,nodev,nosuid 1 2
+9485e0c8cd29cffb.d /usr ffs rw,nodev 1 2

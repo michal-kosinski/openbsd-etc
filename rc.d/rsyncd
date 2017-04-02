@@ -1,0 +1,11 @@
+#!/bin/sh
+#
+# $OpenBSD: rsyncd.rc,v 1.2 2016/04/06 21:17:29 sthen Exp $
+
+daemon="/usr/local/bin/rsync --daemon"
+
+. /etc/rc.d/rc.subr
+
+rc_reload=NO
+
+rc_cmd $1
