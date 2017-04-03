@@ -21,4 +21,4 @@ HOME=/var/log
 #*/5     *      *       *       *       /usr/local/bin/mrtg /etc/mrtg.cfg 2>/dev/null
 0       18,21   *       *       *       /usr/local/bin/wget -q http://nt.home.pl/gumis/ip.php -O /dev/null
 */30	*	*	*	*	/usr/sbin/rdate -s ntp.task.gda.pl
-*	22	*	*	*	cd /etc && git add . && git commit -m "Auto commit" && git push
+0	22	*	*	*	cd /etc && git add . && git commit -m "Auto commit" && git push 2>/dev/null
