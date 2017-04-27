@@ -90,3 +90,4 @@ vim-7.4.1467p1-no_x11 vi clone, many additional features
 wget-1.18           retrieve files from the web via HTTP, HTTPS and FTP
 xz-5.2.2p0          LZMA compression and decompression tools
 zip-3.0p0           create/update ZIP files compatible with PKZip(tm)
+zsh-5.2p3           Z shell, Bourne shell-compatible
