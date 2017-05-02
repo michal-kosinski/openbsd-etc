@@ -2,5 +2,3 @@ httpd_flags=
 sndiod_flags=NO
 ntpd_flags=-s
 pflogd_flags=NO
-isakmpd_flags="-4 -K"
-ipsec=YES
