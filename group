@@ -84,3 +84,6 @@ mkosinski:*:1000:
 _pkgfetch:*:57:
 _pkguntar:*:58:
 _gitdaemon:*:778:
+_dbus:*:572:
+_avahi:*:629:
+_cups:*:541:

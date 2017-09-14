@@ -1,4 +1,4 @@
 httpd_flags=
-sndiod_flags=NO
 ntpd_flags=-s
 pflogd_flags=NO
+sndiod_flags=NO
