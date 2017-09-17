@@ -15,7 +15,9 @@ dbus-1.10.8v0       message bus system
 dbus-daemon-launch-helper-1.10.8 DBus setuid helper for starting system services
 fping-3.13          quickly ping N hosts w/o flooding the network
 gamin-0.1.10p21     file and directory monitoring system
+gcc-4.9.3p9         GNU compiler collection: core C compiler
 gcc-libs-4.9.3p9    GNU compiler collection: support libs
+gcj-4.9.3p9         GNU compiler collection: java compiler
 gd-2.1.1p3          library for dynamic creation of images
 gdbm-1.12           GNU dbm
 gdiff-3.3p0         GNU versions of the diff utilities
@@ -40,6 +42,7 @@ libffi-3.2.1p2      Foreign Function Interface
 libiconv-1.14p3     character set conversion library
 libidn-1.32p1       internationalized string handling
 libltdl-2.4.2p1     GNU libtool system independent dlopen wrapper
+libmpc-0.9p1        complex numbers math library
 libnettle-3.2       cryptographic library
 libpsl-0.13.0       public suffix list library
 libsigsegv-2.10p2   library for handling page faults in user mode
@@ -58,6 +61,7 @@ lua-5.2.4p1         powerful, light-weight programming language (version 5.2.4)
 lynx-2.8.9pl9       text web browser
 lzo2-2.09           portable speedy lossless data compression library
 mc-4.8.16p0         free Norton Commander clone with many useful features
+mpfr-3.1.0.3p0      library for multiple-precision floating-point computations
 mrtg-2.17.4p3       multi-router traffic grapher
 nghttp2-1.12.0      library for HTTP/2
 nmap-7.12           scan ports and fingerprint stack of network hosts
@@ -76,6 +80,7 @@ p5-SNMP_Session-1.13p6 provides rudimentary access to remote SNMP agents
 p5-Socket6-0.27     Perl defines relating to AF_INET6 sockets
 pango-1.40.1        library for layout and rendering of text
 pcre-8.38p0         perl-compatible regular expression library
+pdftk-2.02p2        pdf swiss army knife
 png-1.6.23          library for manipulating PNG images
 popt-1.16p1         getopt(3)-like library with a number of enhancements
 py-MarkupSafe-0.23p1 implements an XML/HTML/XHTML markup safe string
