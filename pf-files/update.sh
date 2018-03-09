@@ -23,16 +23,24 @@ echo "Downloading ZeuS IP blocklist"
 wget -q -4 --no-proxy --no-cookies --no-cache \
 https://zeustracker.abuse.ch/blocklist.php?download=badips -O $DIR/zeus
 
+echo "Downloading tor exit nodes blocklist"
+wget -q -4 --no-proxy --no-cookies --no-cache \
+https://www.dan.me.uk/torlist/?exit -O $DIR/tor
+
 if [ ! -s $DIR/blocked_zones ]; then
-        echo "Download NOT complete."
+        echo "Download blocked_zones NOT complete."
         exit 1
 fi
 
 if [ ! -s $DIR/zeus ]; then
-        echo "Download NOT complete."
+        echo "Download zeus NOT complete."
         exit 1
 fi
 
+if [ ! -s $DIR/tor ]; then
+        echo "Download tor NOT complete."
+        exit 1
+fi
 
 echo "Download complete, reloading pf ruleset"
 pfctl -nf /etc/pf.conf
