@@ -1,1 +1,1 @@
-inet 192.168.0.200 255.255.255.0 NONE description WAN -inet6
+inet 192.168.1.200 255.255.255.0 NONE description WAN -inet6
